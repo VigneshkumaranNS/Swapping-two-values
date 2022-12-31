@@ -18,8 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
-
+```python
+n1=input()
+n2=input()
+temp=n2
+n2=n1
+n1=temp
+print('Swapped values are: {} {}'.format(n1,n2))
+```
+## Output:
+![output12](swapping.png)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
